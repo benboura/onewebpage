@@ -2,10 +2,16 @@
 
 <html lang="fr">
   <head> 
+    <meta charset="UTF-8">
+    <title>Fiche de Renseignement</title>
+
+  </head>
     <meta charset="utf.8">
     <title>onewebpage</title>
  <link href="style.CSS" rel="stylesheet">
-
+<link rel="preconnect" href=" https://fonts.googleapis.com">
+ <link rel="preconnect" href=" https://fonts.gstatic.com"crossorigin>
+<link href="htpps://fonts.googleapis.com/css2?family=Robot&display=swap" rel="stylesheet">
  <style>
   body {
       background-image: url("technologie-3d.jpg");
@@ -17,9 +23,10 @@
 
 
   </head>
-  <body>    
-    <h3> <center> <p>Expansion Economique</p> </center> </h3>
-  <h1>L'expansion est une phase du cycle économique pendant laquelle l'économie est en forte croissance. Cette augmentation conjoncturelle de l'activité économique est très favorable à une hausse du pouvoir d'achat des ménages, des salaires, de la production et de la consommation. </h1>
+  <body> 
+
+    <h3> <center> Expansion Economique </center> </h3> 
+  <h1 class="lamal">L'expansion est une phase du cycle économique pendant laquelle l'économie est en forte croissance. Cette augmentation conjoncturelle de l'activité économique est très favorable à une hausse du pouvoir d'achat des ménages, des salaires, de la production et de la consommation. </h1>
 
   <img src="illustration-du-concept-marche-boursier-mondial_114360-19030.avif" alt="l'image pricipal" title=" important "/> 
    
@@ -38,6 +45,27 @@
     </h2>
    
     <a href="#MR"> vers les propos</a>
+
+   
+      <h1>Fiche de Renseignement</h1>
+      <h3 class="presse"> 
+      <form action="/submit" method="post">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required><br><br>
+            
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" name="prenom" required><br><br>
+            
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="telephone">Téléphone :</label>
+            <input type="tel" id="telephone" name="telephone" required><br><br>
+            
+            <input type="submit" value="Envoyer">
+        </form>
+       </h3>
+
 </center>
  
   </body>
