@@ -1,0 +1,20 @@
+nav {
+    border-bottom: 20px solid black;
+  }
+li{
+ display: inline-block;     /*affichage*/
+ border-top: dotted 10px yellow;        /*haut de la bordure*/
+border-right: solid 10px green ;       /*bordure droit*/
+border-left: solid 10px red;         /*bordure gauche*/
+border-bottom: dotted 10px yellow;      /*bordure inférieur*/
+box-shadow: 10px 11px 12px rgb(28, 13, 136);;  /*boite ombre*/
+}  
+
+
+
+body{
+    background-color: rgb(138, 165, 42);    /*couleur de fond*/
+}
+
+
+/* _blank pour ouvrir un nouvel onglet*/ 

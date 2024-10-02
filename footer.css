@@ -1,0 +1,22 @@
+h3{
+  color: bisque; 
+ background-color: rgb(165, 140, 42);
+
+}
+
+ul{
+    padding: 40px;
+    background-color: blue;          /*couleur de fond*/
+    border-top: solid;                 /*haut de la bordure*/
+    border-right: double 35px  red;                 /*bordure droit*/
+    border-bottom: 25px;                /*bordure inférieur*/
+    border-left: double 35px red;                  /*bordure inférieur*/
+    border-radius: 11px 10px 12px;     /*rayon de bordure*/
+    
+}
+
+small{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,serif;
+}
+
+

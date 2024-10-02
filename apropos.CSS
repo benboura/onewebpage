@@ -1,0 +1,29 @@
+h1{
+    font-size: 3.5em;
+    color: #a5b4fc;
+    font-family: montserrat;
+}
+
+
+p{
+    font-size: 1.1em;
+    font-family: manrope;
+}
+
+ul{
+
+    font-size: 1em;
+    font-family: manrope;
+}
+.carottes{
+padding: 40px;
+background-color: blue;          /*couleur de fond*/
+border-top: solid;                 /*haut de la bordure*/
+border-right: double 35px  red;                 /*bordure droit*/
+border-bottom: 25px;                /*bordure inférieur*/
+border-left: double 35px red;                  /*bordure inférieur*/
+border-radius: 11px 10px 12px;     /*rayon de bordure*/
+
+}
+
+/*pirate*/
