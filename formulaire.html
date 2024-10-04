@@ -2,20 +2,71 @@
 <html lang="fr">
 
 <body>
+<link rel="stylesheet" href="formulaire.css"
 
-    <from> <!--la balise from permet de creer un formulaire--> 
+<fieldset>
 
-      <p> A compléter!</p>
-      <label> votre avis </label>
-      <input type="text" placeholder="votre avis">
+    <legend>Veuillez indiquer la tranche d'age dans laquelle vous vous situez:</legend>
+  
+    <div>
+      <input type="radio" id="huey" name="drone" value="huey" checked />
+      <label for="huey"> Moins de 15 ans </label>
+    </div>
+  
+    <div>
+      <input type="radio" id="dewey" name="drone" value="dewey" />
+      <label for="dewey"> 15-25 ans</label>
+    </div>
+  
+    <div>
+      <input type="radio" id="louie" name="drone" value="louie" />
+      <label for="louie"> 25-40 ans</label>
+    </div>
+
+
+    <div>
+        <input type="radio" id="louie" name="drone" value="louie" />
+        <label for="louie">Plus de 40 ans</label>
+      </div>
+  
+    </fieldset>
+  
+      <fieldset>
       
-    <p>
-      <label> projet </label>
-      <textarea name=" projet"></textarea> <!--pour definir un long texte -->
-     
-    </p>
-<input type="datetime-local">
-    </from>
+      <legend>Sur quel continent vous vous situez ?</legend>
+
+
+    <div>
+        <input type="radio" id="dewey" name="drone" value="dewey" />
+        <label for="dewey"> Europe </label>
+      </div>
+
+
+      <div></div>
+        <input type="radio" id="dewey" name="drone" value="dewey" />
+        <label for="dewey"> Afrique </label>
+      </div>
+
+      <div></div>
+        <input type="radio" id="dewey" name="drone" value="dewey" />
+        <label for="dewey"> Asie </label>
+      </div>
+
+      <div></div>
+        <input type="radio" id="dewey" name="drone" value="dewey" />
+        <label for="dewey">Amérique</label>
+      </div>
+
+      <div></div>
+        <input type="radio" id="dewey" name="drone" value="dewey" />
+        <label for="dewey">Océanie</label>
+
+      </div>
+  </fieldset>
+   
+
+
+
 </body>
 
 </html>
